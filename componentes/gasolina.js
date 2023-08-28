@@ -8,6 +8,7 @@ export default props=>{
             <TextInput
                 style={estilos.txt}
                 keyboardType='numeric'
+                onChangeText={text=>props.aoModificar(text)}
             />
         </View>
     )

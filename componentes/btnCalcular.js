@@ -7,6 +7,7 @@ export default props=>{
             
             <TouchableHighlight
                 style={estilos.btn}
+                onPress={props.aoPressionar}
             >
                 <Text style={estilos.txtBtn}>Calcular</Text>
             </TouchableHighlight>
